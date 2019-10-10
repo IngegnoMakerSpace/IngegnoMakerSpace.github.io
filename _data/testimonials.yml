@@ -1,0 +1,8 @@
+- name: Diorama
+  title: Digital Storytelling Kit
+  testimonial: "De Diorama is ontwikkeld door Sanne Cools ism Ingegno. Over verschillende iteraties is een story telling kit gemaakt die digitaal aangestuurd wordt. Jongeren leren verhalen maken, leren attributen maken, en leren de diorama programmatisch aan te sturen."
+  image: img/item-img1.jpg
+- name: Led Up Kidz
+  title: SMD soldering and Arduino programming kit
+  testimonial: "The Led Up Kidz toolkit ontwikkeld ism HoWest is een SMD set bestaande uit 6 LED. De kinderen kiezen zelf de LED, programmeren effecten met onze blokkencode, en bakken de PCB."
+  image: img/led_up-item.jpg
