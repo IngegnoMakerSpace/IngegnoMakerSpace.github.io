@@ -11,7 +11,7 @@ permalink: /work/
             <div class="col-md-12">
                 <div class="block">
                     <h1>Just some of our latest projects.</h1>
-                    <p>Don’t just take our word for it. Check out some of our latest work.</p>
+                    <p>Don’t just take our word for it. Check out our realizations.</p>
                 </div>
             </div>
         </div>
@@ -26,88 +26,74 @@ permalink: /work/
               <div class="portfolio-menu">
                 <ul>
                     <li class="filter" data-filter="all">Everything</li>
-                    <li class="filter" data-filter=".Branding">Branding</li>
-                    <li class="filter" data-filter=".Websites">Websites</li>
-                    <li class="filter" data-filter=".Graphic">Graphic</li>
-                    <li class="filter" data-filter=".design">design</li>
-                    <li class="filter" data-filter=".Video">Video</li>
+                    <li class="filter" data-filter=".Kits">Kits</li>
+                    <li class="filter" data-filter=".Projects">Projects</li>
+                    <li class="filter" data-filter=".Apps">Apps</li>
+                    <li class="filter" data-filter=".Manuals">Manuals</li>
                 </ul>
               </div>
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
-                    <li class="mix Branding">
-                      <a href="#">
-                        <img src="{{ site.baseurl }}/img/portfolio/work1.jpg" alt="">
+                  {% assign filtered_realisations = site.realisations | where: "type","kit" %}
+                  {% for work in filtered_realisations %}
+                    <li class="mix Kits">
+                      <a href={{ work.url }}>
+                        <img src="/{{ work.img }}" alt="">
                         <div class="overly">
                           <div class="position-center">
-                            <h2>Tesla Motors</h2>
-                            <p>Labore et dolore magna aliqua. Ut enim ad </p>
+                            <h2>{{ work.name }}</h2>
+                            <p>{{ work.short_excerpt }}</p>
 
                           </div>
                         </div>
                       </a>
-                  </li>
-                  <li class="mix Websites">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work2.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
+                    </li>
+                  {% endfor %}
+                  {% assign filtered_realisations = site.realisations | where: "type","project" %}
+                  {% for work in filtered_realisations %}
+                    <li class="mix Projects">
+                      <a href={{ work.url }}>
+                        <img src="/{{ work.img }}" alt="">
+                        <div class="overly">
+                          <div class="position-center">
+                            <h2>{{ work.name }}</h2>
+                            <p>{{ work.short_excerpt }}</p>
 
+                          </div>
                         </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="mix Graphic">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work3.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
+                      </a>
+                    </li>
+                  {% endfor %}
+                  {% assign filtered_realisations = site.realisations | where: "type","app" %}
+                  {% for work in filtered_realisations %}
+                    <li class="mix Apps">
+                      <a href={{ work.url }}>
+                        <img src="/{{ work.img }}" alt="">
+                        <div class="overly">
+                          <div class="position-center">
+                            <h2>{{ work.name }}</h2>
+                            <p>{{ work.short_excerpt }}</p>
 
+                          </div>
                         </div>
-                      </div>
+                      </a>
+                    </li>
+                  {% endfor %}
+                  {% assign filtered_realisationsm = site.realisations | where: "type","manual" %}
+                  {% for work in filtered_realisationsm %}
+                    <li class="mix Manuals">
+                      <a href={{ work.url }}>
+                        <img src="/{{ work.img }}" alt="">
+                        <div class="overly">
+                          <div class="position-center">
+                            <h2>{{ work.name }}</h2>
+                            <p>{{ work.short_excerpt }}</p>
 
-                    </a>
-                  </li>
-                  <li class="mix design">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work4.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
+                          </div>
                         </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="mix Video">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work5.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="mix Graphic">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work6.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                        </div>
-                      </div>
-                    </a>
-                  </li>
+                      </a>
+                    </li>
+                  {% endfor %}
                 </ul>
               </div>
             </div>

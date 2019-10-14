@@ -35,3 +35,25 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+collections:
+  realisations:
+    output: true
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "realisations"
+    values:
+      layout: "realisation"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  

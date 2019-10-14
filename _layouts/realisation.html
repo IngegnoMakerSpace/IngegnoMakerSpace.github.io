@@ -9,7 +9,9 @@ layout: default
         <div class="block">
           <div class="section-title">
             <h2 >{{ page.title }} </h2>
-            <p>{{ page.quote}}</p>
+            {% if page.quote %}
+              <p>{{ page.quote}}</p>
+            {% endif %}
           </div>
             {{ content }}
         </div>
@@ -22,5 +24,6 @@ layout: default
     </div>
   </div>
 </section>
+
 
 {% include call2action.html %}
