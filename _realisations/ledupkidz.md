@@ -3,8 +3,8 @@ layout: realisation
 type: kit
 name: LedUpKidz
 short_excerpt: Small 6 LED PCB to learn programming
-image: img/realisations/ledupkidz.jpg
-img: img/realisations/ledupkidz_thumb.jpg
+image: /img/realisations/ledupkidz.jpg
+thumb: /img/realisations/ledupkidz_thumb.jpg
 ---
 
 ### Wat?
