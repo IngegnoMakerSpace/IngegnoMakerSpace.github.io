@@ -50,7 +50,7 @@ Het leukst is de LedUpKidz toepassen binnen een applicatie. Wat ga jij maken? Ee
 De LedUpKidz is een open hardware kit van Ingegno. Hier de informatie voor wie zelf een respin wil maken van dit concept.
 Circuit:
 
-![hardware circuit ledupkidz](/img/realisations/ledup_hardware2.jpg)
+![hardware circuit ledupkidz](/img/realisations/ledup_hardware2.png)
 
 PCB:
 
