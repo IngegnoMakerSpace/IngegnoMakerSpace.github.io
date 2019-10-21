@@ -5,6 +5,7 @@ name: LedUpKidz
 short_excerpt: Small 6 LED PCB to learn programming
 image: /img/realisations/ledupkidz.jpg
 thumb: /img/realisations/ledupkidz_thumb.jpg
+long_excerpt: Leer programmeren en de wereld van de micro-elektronica door met de LedUpKidz te experimenteren!
 ---
 
 ### Wat?
