@@ -56,4 +56,3 @@ defaults:
     values:
       layout: "default"
 
-include: ['.htaccess']
