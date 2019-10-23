@@ -40,7 +40,6 @@ collections:
   realisations:
     output: true
 
-
 defaults:
   - scope:
       path: ""
@@ -56,4 +55,5 @@ defaults:
       path: ""
     values:
       layout: "default"
-  
+
+include: ['.htaccess']
