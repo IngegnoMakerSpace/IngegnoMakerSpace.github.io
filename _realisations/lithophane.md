@@ -14,7 +14,7 @@ Een [Lithophane](http://en.wikipedia.org/wiki/Lithophane) maken van een foto, da
 ### Handleiding 
 Een [Lithophane](http://en.wikipedia.org/wiki/Lithophane) is een leuke toepassingen van de 3D printer. Bij Ingegno hebben we er al enkele gemaakt, en willen we het eenvoudiger maken voor anderen om er een te ontwerpen. Daarom een app om het ontwerp proces zo eenvoudig mogelijk te houden.
 
-Het belangrijkste is de lithophane berekenen op basis van een foto. We gebruiken hiertoe een webapp die  beschikbaar is via Ingegno: [de Ingegno lithophane ontwerper]("http://Ingegno.be/Manuals/lithophane/")
+Het belangrijkste is de lithophane berekenen op basis van een foto. We gebruiken hiertoe een webapp die  beschikbaar is via Ingegno: [de Ingegno lithophane ontwerper](http://ingegno.be/Manuals/lithophane/)
 
 De handleiding is als volgt:
 
