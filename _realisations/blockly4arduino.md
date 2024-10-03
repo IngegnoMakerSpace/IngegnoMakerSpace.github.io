@@ -25,7 +25,7 @@ Wat ook interessant is, Blockly4Arduino is touch ready, en werkt dus ook op de t
 ### School Handleiding
 We hebben een pdf handleiding die uit verschillende boekjes bestaat met uitleg en opdrachten:
 
-#### [Inhoud van de Handleiding](https://drive.google.com/open?id=0B3Twdgvjcgi4ME01bmZKdFZ1TGc)
+#### [Inhoud van de Handleiding](https://drive.google.com/file/d/0B3Twdgvjcgi4LUdpTlU0QnBFQ1E/view?usp=sharing&resourcekey=0-ZZM4HqXCOAU0a73bQmO6RQ)
 
 #### [Deel 1 De omgeving leren gebruiken ... en een hartje doen kloppen](https://drive.google.com/open?id=0B3Twdgvjcgi4Mk4tUTdORnVYc2M)
 
@@ -37,13 +37,12 @@ We hebben een pdf handleiding die uit verschillende boekjes bestaat met uitleg e
 
 #### [Deel 4 Input leren gebruiken: voeg een knop toe](https://drive.google.com/open?id=0B3Twdgvjcgi4TW9GWV9JbnJvV0U)
 
-#### [Deel 5 Sensor inlezen: lees een LDR sensor en maak licht in het donker!](https://drive.google.com/open?id=0B3Twdgvjcgi4Ymd5NHpnQlpXMnc)
+#### [Deel 5 Sensor inlezen: lees een LDR sensor en maak licht in het donker!](https://drive.google.com/file/d/0B3Twdgvjcgi4Nzlzc21rQnpWYVk/view?usp=drive_link&resourcekey=0-scz52JIwzlT_Ynd6uZ62-Q)
 
-#### [Deel 6 Afstandsensor aansturen: Bepaal de afstand, en reageer erop](https://drive.google.com/open?id=0B3Twdgvjcgi4QXB4X21nQnhibVE)
+#### [Deel 6 Afstandsensor aansturen: Bepaal de afstand, en reageer erop](https://drive.google.com/file/d/0B3Twdgvjcgi4R0dMcjJ6TnpOU0U/view?usp=drive_link&resourcekey=0-D5fZDK4jCcOEwUPpi9WB9g)
 
-#### [Deel 7 Projecten voor gevorderden](https://drive.google.com/open?id=0B3Twdgvjcgi4di1XbVVBUDZHdlU)
+#### [Deel 7 Projecten voor gevorderden](https://drive.google.com/file/d/0B3Twdgvjcgi4b1RVZE5CTWE4Ykk/view?usp=drive_link&resourcekey=0-1GEtS-VPa_OKO7l7hKLNpQ)
 
-#### [Bijlagen: Elektronica onderdelen; Troubleshooting; Links](https://drive.google.com/open?id=0B3Twdgvjcgi4bTRnV0RIb3NxWFE)
 
 ### Voorbeelden
 
